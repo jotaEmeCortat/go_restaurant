@@ -9,7 +9,7 @@ https://www.notion.so/Desafio-02-Refactoring-de-classes-e-typescript-4571541e7f8
 ## :camera: Layout
 
 <div>
-   <img src="" width="400px" />
+   <img src="https://github.com/jotaEmeCortat/go_restaurant/blob/master/src/assets/screenshot-nimbus-capture-2022.01.23-13_37_32.png" width="400px" />
 </div>
 
 &nbsp;
