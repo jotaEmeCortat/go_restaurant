@@ -1,13 +1,17 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+type ContainerStyledProps = {
+  readonly available: boolean;
+}
+
+export const Container = styled.div<ContainerStyledProps>`
   background: #f0f0f5;
   border-radius: 8px;
 
   header {
     background: #ffb84d;
     border-radius: 8px 8px 0px 0px;
-    height: 192px;
+    height: 190px;
     overflow: hidden;
     transition: 0.3s opacity;
     text-align: center;
@@ -25,7 +29,7 @@ export const Container = styled.div`
   }
 
   section.body {
-    padding: 30px;
+    padding: 26px;
 
     h2 {
       color: #3d3d4d;
@@ -34,13 +38,13 @@ export const Container = styled.div`
     p {
       color: #3d3d4d;
 
-      margin-top: 16px;
+      margin-top: 14px;
     }
 
     .price {
       font-style: normal;
-      font-size: 24px;
-      line-height: 34px;
+      font-size: 20px;
+      line-height: 28px;
       color: #39b100;
 
       b {
@@ -54,7 +58,7 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 30px;
+    padding: 18px 28px;
     background: #e4e4eb;
     border-radius: 0px 0px 8px 8px;
 
